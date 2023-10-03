@@ -16,7 +16,7 @@ public abstract class Notes {
 	
 	//Abstract class
 	//1. abstract keyword
-	//2. variables + methods
+	//2. variables + methods + consturctor
 	//3. method - Abstract method and Non-abstract method
 	//4. if abstract method is present in a class, it is mandatory to make the class as abstract 
 	//5. Cannot instantiate abstract class
