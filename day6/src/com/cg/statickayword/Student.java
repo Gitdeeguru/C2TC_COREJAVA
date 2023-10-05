@@ -14,7 +14,7 @@ public class Student {
 
 	
 	//non-static method
-	 static void modify() {
+	  static void modify() {
 		
 		collageName = "Global Academy of Technology";
 	}
