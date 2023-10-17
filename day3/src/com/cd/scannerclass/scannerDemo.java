@@ -1,9 +1,8 @@
 package com.cd.scannerclass;
 import java.util.Scanner;
-
-import com.cg.constructorClass.customer;
 public class scannerDemo {
 	public static void main(String[] args) {
+		person p = new person();
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the FIrst Name: ");
 		String name = sc.next();
@@ -24,15 +23,7 @@ public class scannerDemo {
 		P.setIncome(income);
 		
 		taxCalculation tc = new taxCalculation();
-		
-		
-		
-		customer c1 = new customer(1,"Anu", 24 ,"Bangalore");
-		
-		//value initialzation
-//		c.customer_id = 1;
-		c.setCustomer_id(1);
-//		c.customer_name="Deepak";
-		c.setCustomer_name("Deepak");
-	}
+		System.out.print("Befor taxcalculation");
+		System.out.println(p.getIncome()+p.getTax()+p.getName()+p.getAge());
+		}
 }

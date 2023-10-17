@@ -6,8 +6,8 @@ public class interfaceExample {
 		e.getMilage();
 		
 		
-		bike e1 = new RoyalEnfield(); //correct
-		
+		bike b = new RoyalEnfield(); //correct
+//		e1.getMilage();
 	}
 	
 }

@@ -1,5 +1,6 @@
 package com.cg.interfaceclass;
 
-public interface bike {
+ public interface bike {
 	void getMilage();
+	
 	}

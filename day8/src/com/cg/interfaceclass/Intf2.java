@@ -1,6 +1,6 @@
 package com.cg.interfaceclass;
 
-public interface Intf2 implments Intf1 {
+public interface Intf2 implements Intf1 {
 	// it is not allowable
 }
 

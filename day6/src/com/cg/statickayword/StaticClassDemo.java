@@ -2,22 +2,22 @@ package com.cg.statickayword;
 
 class Outer{
 	static int a= 10;
-	
-	static class Inner{
-		void msg() {
-			System.out.println(a);
+
+	  class Inner{
+		 void msg() {
+			System.out.println("value of a: " +a);
 		}
 	}
 }
-
 
 public class StaticClassDemo {
 	public static void main(String[] args) {
 		Outer o = new Outer();
 		System.out.println(o.a);
 		o.a = 30;
-		Outer.Inner i = new Outer.Inner();
+//		System.out.println(o.a);
+		Outer.Inner i = o.new Inner();
 		i.msg();
-		
 	}
 }
+

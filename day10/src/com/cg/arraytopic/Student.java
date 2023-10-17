@@ -1,6 +1,6 @@
 package com.cg.arraytopic;
 
-public class Student {
+ class Student {
 	private int rollno;
 	private String name;
 	public Student() {
@@ -26,9 +26,9 @@ public class Student {
 	}
 	@Override
 	public String toString() {
-		return "Student [rollno=" + rollno + ", name=" + name + ", getRollno()=" + getRollno() + ", getName()="
-				+ getName() + "]";
+		return "Student [rollno=" + rollno + ", name=" + name + "]";
 	}
+	
 	
 	
 }

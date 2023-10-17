@@ -8,9 +8,10 @@ public class ArraysClassDemo {
 		
 		//tostring
 		int arr[] = {30,20,10};
-//		System.out.println(arr);
-//		System.out.println(Arrays.toString(arr)); //Arrays is a class
+		System.out.println(arr);
+		System.out.println(Arrays.toString(arr)); //Arrays is a class
 		Arrays.sort(arr);
+		System.out.println(arr);
 		System.out.println(Arrays.toString(arr));
 		
 		
@@ -20,10 +21,10 @@ public class ArraysClassDemo {
 //		System.out.println(Arrays.binarySearch(arr, key));
 //		
 //		
-		//comparison
+//		//comparison
 		int arr1[] = {10,20,30};
 		System.out.print(Arrays.equals(arr, arr1));
-		
+//		
 		
 		//copy
 //		int arr2[] = Arrays.copyOf(arr, 2);

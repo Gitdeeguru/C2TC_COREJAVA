@@ -1,5 +1,5 @@
 package com.cg.stringoperation;
-//if intervier ask you what categpry string packagae comes under then you have tp say java.lang
+//if intervier ask you what category string packaga comes under, then you have to say java.lang
 public class StringOperationDemo {
 
 	public static void main(String[] args) {
